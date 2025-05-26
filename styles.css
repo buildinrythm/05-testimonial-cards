@@ -10,6 +10,11 @@ body {
 }
 body{
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 .card-1 {
   width: 350px;
@@ -51,7 +56,6 @@ body{
   height: 60px;
   width: 60px; 
   border-radius: 50%;
-  background-color: black;
   background-image: url('sb-headshot.jpg');
   background-size: cover;
   background-position: center;
@@ -60,8 +64,10 @@ body{
 
 #card-row-1{
   display: flex;
-  justify-content: center;
-  gap: 50px;
+  justify-content: space-around;
+  width: 70%;
+  border: 2px red solid;
+  padding: 0 6rem;;
 }
 
 .artem-box {
@@ -75,3 +81,108 @@ body{
   padding-left: 0;
 }
 
+#row-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    gap: 40px;
+    border: 2px solid red;
+    
+}
+
+.photo-2 {
+    height: 250px;
+    width: 250px;
+    border-radius: 18px;
+      background-image: url('sb-headshot.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.row-2-review-box {
+    border: 2px solid black;
+    height: 250px;
+    width: 450px;
+    border-radius: 18px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    
+}
+
+.row-2-review-box * {
+    margin-bottom: 10px;
+}
+
+.row-2-review-box h3{
+    color: grey;
+}
+.stars {
+    font-size: 2rem;
+}
+
+#row-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    padding: 10px;
+    width: 70%;
+}
+.row-3-container {
+border: 2px solid black;
+border-radius: 18px;
+height: 350px;
+width: 78%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-size: 1.3rem;
+gap: 3rem;
+}
+
+.image-slider {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+
+
+.image-1, .image-3 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+      background-image: url('sb-headshot.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  opacity: 0%;
+} 
+
+.image-2{
+     height: 65px;
+    width: 65px;
+    border-radius: 50%;
+      background-image: url('sb-headshot.jpg');
+  background-size: cover;
+  background-position: center;
+} 
+
+.row-3-container p{
+    width: 600px;
+}
+
+.row-3-container h2{
+    font-size: 1.3rem;
+}
+
+.oveerlay {
+    background-color: grey;
+    z-index: 1;
+     height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
