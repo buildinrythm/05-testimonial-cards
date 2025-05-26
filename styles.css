@@ -56,7 +56,17 @@ body{
   height: 60px;
   width: 60px; 
   border-radius: 50%;
-  background-image: url('sb-headshot.jpg');
+  background-image: url('tough-fish-3.png');
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.artem-photo-1{
+    height: 60px;
+  width: 60px; 
+  border-radius: 50%;
+  background-image: url('tough-fish-2.png');
   background-size: cover;
   background-position: center;
   
@@ -93,7 +103,7 @@ body{
     height: 250px;
     width: 250px;
     border-radius: 18px;
-      background-image: url('Sandy.png');
+      background-image: url('critic.jpeg');
   background-size: cover;
   background-position: center;
 }
@@ -147,11 +157,11 @@ gap: 3rem;
 }
 
 
-.image-1, .image-3 {
+.image-1 {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-      background-image: url('sb-headshot.jpg');
+      background-image: url('lady-fish.jpeg');
   background-size: cover;
   background-position: center;
   opacity: 70%;
@@ -161,7 +171,7 @@ gap: 3rem;
      height: 65px;
     width: 65px;
     border-radius: 50%;
-      background-image: url('sb-headshot.jpg');
+      background-image: url('tough-guy.jpeg');
   background-size: cover;
   background-position: center;
 } 
@@ -173,4 +183,14 @@ gap: 3rem;
 
 .row-3-container h2{
     font-size: 1.3rem;
+}
+
+.image-3{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+      background-image: url('sb-headshot.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 70%;
 }
