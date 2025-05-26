@@ -66,7 +66,6 @@ body{
   display: flex;
   justify-content: space-around;
   width: 70%;
-  border: 2px red solid;
   padding: 0 6rem;;
 }
 
@@ -87,7 +86,6 @@ body{
     align-items: center;
     width: 70%;
     gap: 40px;
-    border: 2px solid red;
     
 }
 
@@ -95,7 +93,7 @@ body{
     height: 250px;
     width: 250px;
     border-radius: 18px;
-      background-image: url('sb-headshot.jpg');
+      background-image: url('Sandy.png');
   background-size: cover;
   background-position: center;
 }
@@ -126,20 +124,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
     padding: 10px;
     width: 70%;
 }
 .row-3-container {
 border: 2px solid black;
 border-radius: 18px;
-height: 350px;
+height: 400px;
 width: 78%;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-text-align: center;
 font-size: 1.3rem;
 gap: 3rem;
 }
@@ -158,8 +154,7 @@ gap: 3rem;
       background-image: url('sb-headshot.jpg');
   background-size: cover;
   background-position: center;
-  z-index: -1;
-  opacity: 0%;
+  opacity: 70%;
 } 
 
 .image-2{
@@ -172,17 +167,10 @@ gap: 3rem;
 } 
 
 .row-3-container p{
-    width: 600px;
+    width: 580px;
+    text-align: center;
 }
 
 .row-3-container h2{
     font-size: 1.3rem;
-}
-
-.oveerlay {
-    background-color: grey;
-    z-index: 1;
-     height: 65px;
-    width: 65px;
-    border-radius: 50%;
 }
