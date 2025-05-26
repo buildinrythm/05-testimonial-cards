@@ -52,6 +52,9 @@ body{
   width: 60px; 
   border-radius: 50%;
   background-color: black;
+  background-image: url('sb-headshot.jpg');
+  background-size: cover;
+  background-position: center;
   
 }
 
@@ -72,6 +75,3 @@ body{
   padding-left: 0;
 }
 
-body {
-  background-color: pink;
-}
