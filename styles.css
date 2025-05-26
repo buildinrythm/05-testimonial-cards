@@ -1,0 +1,77 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+    padding: 0;
+}
+body{
+  padding: 10px;
+}
+.card-1 {
+  width: 350px;
+}
+
+.artem-textbubble {
+  border: 2px solid black; 
+  border-radius: 15px;
+  position: relative;
+  padding: 20px;
+  color: white;
+  background-color: black;
+  width: 100%;
+  
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid black;
+  position: absolute;
+  bottom: -20px; /* shift it outside the box */
+  left: 20px;    /* position it where you want under the bubble */
+}
+
+.author-section{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+    gap: 20px;
+  padding-left: 10px;
+  margin-top: 2rem
+}
+
+.artem-photo {
+  height: 60px;
+  width: 60px; 
+  border-radius: 50%;
+  background-color: black;
+  
+}
+
+#card-row-1{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.artem-box {
+  border: 2px solid black;
+  width: 350px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.artem-box .author-section {
+  padding-left: 0;
+}
+
+body {
+  background-color: pink;
+}
